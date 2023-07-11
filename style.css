@@ -1,0 +1,578 @@
+ @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background-color: #0f1111;
+    height:10vh;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    height:fit-content;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left:px; */
+}
+
+.logo:hover{
+    border:1px solid #f0f0f0;
+}
+
+.logo img{
+    height: 4vh;
+}
+
+.location {
+    color:white;
+    /* height:fit-content; */
+    font-size: 15px;
+    display:flex;
+    padding:8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.location:hover{
+    border:1px solid white;
+}
+
+.loc_text{
+    margin-left:5px;
+    font-size: 10px;
+}
+.india{
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.search_bar{
+    height: 5vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color:white;
+    /* padding:20px; */
+    /* background-color: red; */
+    border-radius:5px ;
+}
+
+.search_bar:hover{
+    border:4px solid #febd68;
+    border-radius:10px;
+}
+
+.select{
+    /* height:3vh; */
+    border: none;
+    align-items: center;
+    outline: none;
+}
+
+
+.select_btn{
+    width: 135px;
+    height: 5vh;
+    background-color: #f0f0f0;
+    border-radius:5px 0 0 5px;
+    margin-right: 0px;
+    outline:none;
+    border:none;
+    
+}
+
+option{
+    font-size: 10px;
+}
+
+.input_bar{
+display: flex;
+border-radius:5px ;
+
+}
+input{
+    height: 5vh;
+    width: 50vw;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.btn{
+    height:5vh;
+    width:30px;
+    border:none;
+    border-radius:0 5px 5px 0;
+    background-color: #febd68;;
+}
+
+.sign_in:hover{
+    border:1px solid #f0f0f0;
+}
+
+.sign_in a{
+    text-decoration: none;
+}
+
+
+span {
+    font-size: 0.7rem;
+    color: #f0f0f0;
+    height:fit-content;
+    padding:5px;
+}
+
+
+.acc{
+    color:white;
+    font-size:0.9rem;
+    font-weight:700;
+    padding: 5px;
+}
+
+
+
+.return:hover{
+    border:1px solid #f0f0f0;
+}
+
+.return a{
+    text-decoration: none;
+}
+
+.second{
+    color:#f0f0f0;
+    font-weight:700;
+    padding:5px;
+}
+
+
+.nav_cart i{
+    padding-top: 15px;
+    margin-left: 8px;
+    font-size:30px;
+}
+
+.Cart{
+    color: #f0f0f0;
+    font-weight:700;
+    float :right ;
+    padding-top: 30px;
+    padding-right: 8px;
+    
+}
+
+.nav_cart:hover{
+    align-items:center;
+    border:1px solid white
+}
+
+
+/*      panel       */
+
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.panel-opt p{
+    display: inline;
+    margin-right:15px;
+}
+
+.panel-opt{
+    width: 70%;
+    /* font-size:1rem ; */
+}
+.panel .panel-opt a{
+    text-decoration: none;
+    color: white;
+}
+
+.panel .panel-deals p a{
+    text-decoration: none;
+    color:white;
+    font-weight: 700;
+}
+
+.hero-section{
+    background-image: url(hero-image1.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-mes{
+    background-color: white;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:0.85rem;
+    width:80%;
+    margin-bottom: 25px;
+}
+
+.hero-mes a{
+    text-decoration: none;
+    color:#007185;
+}
+
+.hero-mes a:hover{
+    color:rgb(182, 77, 15);
+    text-decoration: underline;
+}
+
+
+/*      shop section        */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #838688;
+    padding-bottom:10px;
+    
+}
+
+.box{
+    /* border: 2px solid black; */
+    height:400px;
+    width:22%;
+    background-color: white;
+    padding: 20px 25px 15px 0;
+    padding-bottom:50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+
+/*      for box 1 */
+.shop-section .box1 a{
+    text-decoration: none;
+    padding-left:36px;
+    
+}
+
+
+.shop-section .box1 a:hover{
+    color:rgb(168, 66, 7);
+}
+
+.box1-img{
+    height: 300px;
+    margin:20px 10px 35px 0;
+}
+
+.elec{
+    margin-left:110px;
+}
+
+
+
+/*      for box 2        */
+
+
+.shop-section .box2 a{
+    text-decoration: none;
+    padding-left:25px;
+}
+
+.shop-section .box2 a:hover{
+    color:rgb(182, 77, 15);
+}
+
+.box2-img{
+    height: 300px;
+    margin:20px 0 35px 25px;
+}
+
+.hel{
+    margin-left:40px;
+}
+
+
+
+
+/*      for box 3       */
+
+
+.shop-section .box3 a{
+    text-decoration:none;
+    padding-left:25px;
+}
+
+.shop-section .box3 a:hover{
+    color:rgb(182, 77, 15);
+}
+
+.box3-img{
+    height:300px;
+    margin:22px 0 32px 25px;
+}
+
+.bea{
+    margin-left:100px;
+}
+
+
+
+/*      For Box 4       */
+
+
+
+.shop-section .box4 a{
+    text-decoration: none;
+    padding-left:25px;
+}
+
+.shop-section .box4 a:hover{
+    color:rgb(182, 77, 15);
+}
+
+.box4-img{
+    height: 300px;
+    margin:30px 0 25px 25px;
+}
+
+.fit{
+    margin-left:43px;
+}
+
+
+
+
+/*      For Box 5       */
+
+
+.shop-section .box5 a{
+    text-decoration: none;
+    padding-left:25px;
+}
+
+
+.shop-section .box5 a:hover{
+    color:rgb(182, 77, 15);
+}
+
+.box5-img{
+    height: 300px;
+    margin:30px 0 25px 25px;
+    background-size:cover;
+    /* background-position: center; */
+}
+
+.suk{
+    margin-left:35px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/*      for box 6       */
+
+
+
+
+.shop-section .box6 a{
+    text-decoration: none;
+    padding-left:25px;
+}
+
+
+.shop-section .box6 a:hover{
+    color:rgb(182, 77, 15);
+}
+
+.box6-img{
+    height: 300px;
+    margin:30px 0 25px 25px;
+    background-size:cover;
+    /* background-position: center; */
+}
+
+.refresh{
+    margin-left:35px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/*      For box 7       */
+
+
+
+
+.shop-section .box7 a{
+    text-decoration: none;
+    padding-left:25px;
+}
+
+
+.shop-section .box7 a:hover{
+    color:rgb(182, 77, 15);
+}
+
+.box7-img{
+    height: 300px;
+    margin:30px 0 25px 25px;
+    background-size:cover;
+    /* background-position: center; */
+}
+
+.pet{
+    margin-left:30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.shop-section .box8 a{
+    text-decoration: none;
+    padding-left:25px;
+}
+
+
+.shop-section .box8 a:hover{
+    color:rgb(182, 77, 15);
+}
+
+.box8-img{
+    height: 300px;
+    margin:30px 0 25px 25px;
+    background-size:cover;
+    /* background-position: center; */
+}
+
+.Gas{
+    margin-left:30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/*      footer      */
+
+
+
+.top{
+    text-decoration: none;
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer{
+    margin-top: 50px;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.foot-panel2 ul p{
+    font-size: 1rem;
+    font-weight: 900;
+    margin:25px 0 10px 0;
+}
+
+.foot-panel2 ul a{
+    display: block;
+    color: #DDDDDD;
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin:7px 0 7px 0;
+}
+
+.foot-panel2 ul a:hover{
+    text-decoration: underline;
+}
+
+
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top:0.5px solid white;
+    height:80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.foot-panel3 .logo1{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height:45px;
+    width:150px;;
+}
+
+
+
+.foot-panel4{
+    background-color: #0f1111;
+    color:white;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-right: 10px; */
+}
+
+.pages a{
+    font-size:1rem;
+    text-decoration: none;
+}
+
+
+.copyright{
+    font-size: 0.8rem;
+}
+
